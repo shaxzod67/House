@@ -1,0 +1,849 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header qismi boshlanishi */
+header {
+    width: 100%;
+    background-image: url(./../image/asosiy.png);
+    background-blend-mode: darken;
+    background-color: #00000097;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+header nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 1px solid white; */
+
+}
+
+header nav .internal_nav {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    box-sizing: border-box;
+    padding-top: 30px;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+header nav .internal_nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav .internal_nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+header nav .internal_nav ul li a:hover {
+    color: red;
+}
+
+header nav .internal_nav h1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#check {
+    display: none;
+}
+
+label #menu,
+#cancel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    display: none;
+    margin-top: 25px;
+}
+
+header nav .internal_nav h1 span {
+    color: orangered;
+}
+
+.main_header {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 225px 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 70px;
+}
+
+.main_header h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main_header p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main_header button {
+    /* max-width: 160px; */
+    height: 40px;
+    margin: auto;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* //Hader qismi tugashi// */
+
+/* Main qismi  */
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.services {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #555;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.services p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.chiziq {
+    width: 44px;
+    height: 3px;
+    background-color: #00183d;
+    border-radius: 8px;
+    margin: auto;
+}
+
+/* boxs  */
+
+.boxs {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+    /* gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 8px;
+}
+
+.box:hover {
+    background-color: #00183d;
+    box-shadow: 2px 2px 50px #00183d;
+    color: #fff;
+    transition: .7s;
+}
+
+.box:hover p {
+    color: white;
+}
+
+.box:hover h2 {
+    color: white;
+}
+
+.box img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+.box h2 {
+    color: #555;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.box p {
+    color: #555;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+/* boxs qismi tugadi */
+
+/* info qismi */
+
+.infos {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+
+.info {
+    width: calc(100% / 2 - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.info:hover {
+    transition: .6s;
+    box-shadow: 0 0 10px gray;
+}
+
+.info p {
+    color: #555;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* info qismi tugadi */
+
+/* images box */
+.images {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.image {
+    width: calc(100% / 4 - 40px);
+    transition: .6s;
+    box-shadow: 0 0 5px grey;
+    border-radius: 8px;
+}
+
+.image:hover {
+    scale: 1.05;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+/* big images */
+.bigimages {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.imagee {
+    width: calc(100% / 3 - 30px);
+    border-radius: 8px;
+}
+
+.imagee img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.imagee:hover {
+    scale: 1.05;
+    transition: .7s;
+    box-shadow: 5px 5px 50px #00183d;
+}
+
+/*  imagee tugadi */
+
+/* word box */
+
+.word {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px 0px;
+    line-height: 50px;
+    background-color: rgba(255, 68, 0, 0.582);
+}
+
+.word h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.word p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.word button {
+    width: 160px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #FFF;
+}
+
+.word button:hover {
+    background-color: #FFF;
+    color: rgba(255, 68, 0, 0.582);
+    scale: 1.05;
+    transition: .7s;
+}
+
+/* word tugadi */
+
+
+/* posts box */
+
+.posts {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.school {
+    width: 100%;
+    height: auto;
+
+}
+
+.school img {
+    width: 100%;
+    height: auto;
+
+}
+
+.school-info {
+    width: 60%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.october {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.october18 {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0px 15px;
+    border: 1px solid gray;
+    color: #786F6F;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.october-info {
+    width: 80%;
+}
+
+.october-info h2 {
+    color: #C1301D;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.october-info p {
+    color: #786F6F;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.lorem p {
+    color: #786F6F;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.lorem a {
+    text-decoration: none;
+    color: var(--dark-red, #C1301D);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* posts box end */
+
+/* brand box */
+.brand {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background: #F8F8F8;
+    box-sizing: border-box;
+    padding: 50px 0px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.brand h2 {
+    color: #786F6F;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.brand p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.brand-box {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    width: calc(100% / 5);
+    height: auto;
+
+}
+
+.brand-logo img {
+    width: 50%;
+}
+
+.cirle {
+    width: 5%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cirlee {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+#or {
+    background-color: #C1301D;
+}
+
+/* brand box end   */
+
+
+/* footer box */
+footer {
+    width: 100%;
+    height: auto;
+    background: #C1301D;
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.footer1 {
+    width: 30%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.footer1 img {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+}
+.footer1 img:hover{
+    background-color: #FFF;
+    border: 2px solid #555;
+    scale: 1.05;
+    transition: .7s;
+}
+#chzq{
+    background-color: #FFF;
+}
+.servicess{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+
+/* footer box end */
+
+
+
+
+
+
+
+/* @media screen and (max-width:1100px){
+    .image{
+        width: calc(100% / 2 - 30px);
+    }
+} */
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+    header nav .internal_nav ul {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        display: block;
+        background-color: #FFF;
+        right: -100%;
+        transition: 1s;
+        box-sizing: border-box;
+        padding: 580px 0;
+        box-shadow: 0 0 10px black;
+        list-style: none;
+        line-height: 50px;
+        box-shadow: 0 0 10px white;
+    }
+
+    header nav .internal_nav ul li a {
+        color: orangered;
+    }
+
+    label #menu {
+        display: inline-block;
+        color: #FFF;
+    }
+
+    #check:checked~ul {
+        right: -80px;
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+        color: orangered;
+        z-index: 1;
+    }
+
+    #check:checked~label #menu {
+        display: none;
+    }
+
+    .boxs {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .box {
+        width: calc(100% / 2 - 20px);
+        padding: 10px;
+    }
+
+    .infos {
+        justify-content: center;
+    }
+
+    .info {
+        width: calc(100% / 1 - 20px);
+    }
+
+    .image {
+        width: calc(100% / 2 - 30px);
+    }
+
+    .imagee {
+        width: calc(100% / 2 - 10px);
+    }
+
+    #end {
+        display: none;
+    }
+
+    .posts {
+        grid-template-columns: auto;
+    }
+
+    .school-info {
+        width: 100%;
+
+    }
+
+    .october18 {
+        width: 70px;
+        height: 70px;
+        font-size: 21px;
+        font-weight: 500;
+    }
+
+    .october-info h2 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .lorem p {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 12px;
+        margin-top: 5px;
+    }
+
+    .lorem a {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .brand-box {
+        justify-content: center;
+    }
+
+    .brand-logo {
+        width: calc(100% / 3);
+    }
+
+    .brand {
+        box-sizing: border-box;
+        padding: 50px;
+    }
+
+    .brand h2 {
+        font-size: 12px;
+    }
+
+    .brand p {
+        font-size: 12px;
+    }
+
+    .cirle {
+        width: 10%;
+    }
+    .footer1 {
+        justify-content: center;
+        column-gap: 10px;
+    
+    }
+    
+    .footer1 img {
+        width: 40px;
+        height: 40px;
+         
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    header nav .internal_nav ul {
+        width: 70%;
+        box-sizing: border-box;
+    }
+
+    header nav .internal_nav ul li a {
+        color: orangered;
+        font-weight: bold;
+    }
+
+    .boxs {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .box {
+        width: calc(100% / 1 - 20px);
+        padding: 10px;
+    }
+
+    .image {
+        width: calc(100% / 1 - 30px);
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .imagee {
+        width: calc(100% / 1 - 30px);
+    }
+
+    #endd {
+        display: none;
+    }
+
+    .word h2 {
+        font-size: 18px;
+    }
+
+    .word p {
+        font-size: 14px;
+    }
+
+    .word button {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .october18 {
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .october-info h2 {
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .lorem p {
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 12px;
+        margin-top: 5px;
+    }
+
+    .lorem a {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .brand-logo {
+        width: calc(100% / 2);
+    }
+
+    .cirle {
+        width: 15%;
+    }
+    .footer1 {
+        justify-content: center;
+        column-gap: 5px;
+    
+    }
+    
+    .footer1 img {
+        width: 40px;
+        height: 40px;
+         
+    }
+
+}
