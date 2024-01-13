@@ -121,7 +121,11 @@ header nav .internal_nav h1 span {
     font-size: 12px;
     font-weight: 700;
 }
-
+body button:hover{
+    scale: 1.05;
+    transition: .7s;
+    box-shadow: 1px 1px 20px #786F6F;
+}
 /* //Hader qismi tugashi// */
 
 /* Main qismi  */
@@ -311,6 +315,7 @@ main {
 .imagee {
     width: calc(100% / 3 - 30px);
     border-radius: 8px;
+    
 }
 
 .imagee img {
@@ -321,6 +326,7 @@ main {
 .imagee:hover {
     scale: 1.05;
     transition: .7s;
+    transform: rotate(2deg);
     box-shadow: 5px 5px 50px #00183d;
 }
 
@@ -569,9 +575,11 @@ footer {
 }
 .footer1 img:hover{
     background-color: #FFF;
-    border: 2px solid #555;
+    border: 2px solid #55555563;
     scale: 1.05;
     transition: .7s;
+    transform: rotate(45deg);
+    box-shadow: 1px 1px 20px #555 ;
 }
 #chzq{
     background-color: #FFF;

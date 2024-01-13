@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./house.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link class="logo-icon" rel="icon" type="image/png" href="https://avatars.mds.yandex.net/i?id=734a404ddf9f0032fcb9e18a1d2dbcac-3584061-images-thumbs&n=13">
@@ -57,7 +59,9 @@
             </p>
         </div>
         <div class="boxs">
-            <div class="box">
+            <div class="box" data-aos="fade-right"
+            data-aos-offset="400"
+            data-aos-easing="ease-in-sine">
                 <img src="https://avatars.mds.yandex.net/i?id=a0526549fafcfe3ce7e210e49cee7284-4344700-images-thumbs&n=13"
                     alt="A harfi">
                 <h2>
@@ -69,7 +73,9 @@
                 </p>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <img src="https://pranabreath.info/images/thumb/3/37/Development_icon.png/80px-Development_icon.png"
                     alt="code">
                 <h2>
@@ -81,7 +87,9 @@
                 </p>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <img src="https://avatars.mds.yandex.net/i?id=068b1d9f1e0a6685803aa166cefb8468_sr-5885515-images-thumbs&n=13"
                     alt="cinema">
                 <h2>
@@ -125,18 +133,26 @@
             </div>
         </div>
         <div class="images">
-            <div class="image">
+            <div class="image" data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine" >
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5R-FdFQuRjl9PRuyNcnv3YrHjM__BcdEx0FRYG5pHQWwJUEFx"
                     alt="men">
             </div>
-            <div class="image">
+            <div class="image" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <img src="https://sun9-26.userapi.com/impf/c846018/v846018634/1f2cdb/ONE0UnzXW_0.jpg?size=230x220&quality=96&sign=992bef772e2a5b69e1249ee3c24955f9&c_uniq_tag=o0QYZYFZWsmedziIsew9yaVetPTuDiRpdosqsDglpmY&type=album"
                     alt="men">
             </div>
-            <div class="image">
+            <div class="image" data-aos="fade-right"
+            data-aos-offset="350"
+            data-aos-easing="ease-in-sine">
                 <img src="https://www.anti-malware.ru/files/images/source/te_665178%5B1%5D.jpg" alt="men">
             </div>
-            <div class="image">
+            <div class="image" data-aos="fade-right"
+            data-aos-offset="400"
+            data-aos-easing="ease-in-sine">
                 <img src="https://www.fotolog.com/wp-content/uploads/2020/05/best-suits-for-men-featured-image-final-1536x1194.jpg"
                     alt="men">
             </div>
@@ -365,6 +381,10 @@
             </h2>
             <div class="chiziq" id="chzq"></div>
     </footer>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
